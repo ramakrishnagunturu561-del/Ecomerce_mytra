@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Hero Banner Carousel
-    const bannerSection = document.querySelector('.section1');
+    const bannerSection = document.querySelector('.hero-section');
     if (bannerSection) {
         const banners = bannerSection.querySelectorAll('.homeImg');
         if (banners.length > 1) {
